@@ -17,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
+        centerTitle: false,
         actions: [
           Container(
             margin: const EdgeInsets.only(right: 16),
